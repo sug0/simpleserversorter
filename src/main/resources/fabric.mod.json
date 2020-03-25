@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "simpleserversorter",
+  "version": "${version}",
+
+  "name": "Simple Server Sorter",
+  "description": "Adds /sort commands for use with vanilla clients",
+  "authors": [
+    "williewillus"
+  ],
+  "contact": {
+    "sources": "https://github.com/williewillus/SimpleServerSorter"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.williewillus.sss.SimpleServerSorter"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.15.x"
+  }
+}
